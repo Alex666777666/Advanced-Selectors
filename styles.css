@@ -1,0 +1,18 @@
+input:checked {
+  margin-left: 50px;
+}
+.name::first-line {
+  font-size: 50px;
+  color: orange;
+  background-color: black;
+}
+.special::first-letter {
+  color: green;
+  font-size: 100px;
+}
+h1:hover {
+  color: blue;
+}
+a:visited {
+  color: gray;
+}
