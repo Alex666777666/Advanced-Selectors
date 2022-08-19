@@ -1,10 +1,11 @@
 input:checked {
   margin-left: 50px;
 }
-.name::first-line {
-  font-size: 50px;
-  color: orange;
-  background-color: black;
+div:last-of-type > label:first-of-type {
+  text-transform: uppercase;
+}
+div:last-of-type > label:last-of-type {
+  text-transform: uppercase;
 }
 p#special::first-letter {
   color: green;
