@@ -6,7 +6,7 @@ input:checked {
   color: orange;
   background-color: black;
 }
-.special::first-letter {
+p#special::first-letter {
   color: green;
   font-size: 100px;
 }
